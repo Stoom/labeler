@@ -9,6 +9,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: srvaroa/labeler@master
+      - uses: stoom/labeler@test
         env:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
