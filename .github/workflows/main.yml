@@ -9,6 +9,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: stoom/labeler@foobar
+      - uses: stoom/labeler@4a33bd827dd863bf3bdb5af638f1959dc3fcbbca
         env:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
